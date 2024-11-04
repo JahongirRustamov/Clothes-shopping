@@ -1,0 +1,38 @@
+{
+  "name": "marketplace-e-commerce",
+  "version": "1.0.0",
+  "description": "This website is important for me",
+  "main": "Backend/server.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main",
+    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
+  },
+  "keywords": [
+    "MERN",
+    "TailwindCSS",
+    "and",
+    "DaisyUI",
+    "and",
+    "more"
+  ],
+  "type": "module",
+  "author": "Jakhongir Rustamov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "imagekit": "^5.2.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "stripe": "^16.10.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.13",
+    "nodemon": "^3.1.4"
+  }
+}
